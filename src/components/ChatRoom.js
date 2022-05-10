@@ -20,7 +20,7 @@ const sendBirdURL = `https://api-${SENDBIRD_INFO.appId}.sendbird.com/v3/`
 const channelName = "Test Channel"
 const ChatRoom = (props) => {
 
-    /*const [state, updateState] = useState({
+    const [state, updateState] = useState({
         joinedChannel: null,
         messages: [],
         messageInputValue: "",
@@ -31,10 +31,6 @@ const ChatRoom = (props) => {
         loading: false,
         error: false
     });
-
-    //need to access state in message received callback
-    const stateRef = useRef();
-    stateRef.current = state;
 
     const onError = (error) => {
         updateState({ ...state, error: error.message });
@@ -175,7 +171,7 @@ const ChatRoom = (props) => {
 
     console.log('- - - - State object very useful for debugging - - - -');
     console.log(state);
-    */
+    
     return (
         <>
             <CreateUserForm
