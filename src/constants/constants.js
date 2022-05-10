@@ -1,0 +1,4 @@
+export const SENDBIRD_INFO = {
+  appId: 'BE1997F9-0D13-4B57-8C9F-99170808BC5C',
+  masterToken: 'a064b3ef3d3321d25bb2642e45b64aa32c913d35'
+};
