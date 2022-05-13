@@ -1,8 +1,6 @@
-import ChannelHeader from "./ChannelHeader";
-
 const Channel = ({ channelName, children }) => {
     return <div className="channel">
-        <ChannelHeader>{channelName}</ChannelHeader>
+        <div className="channel-header">{channelName}</div>
         <div>{children}</div>
     </div>;
 }

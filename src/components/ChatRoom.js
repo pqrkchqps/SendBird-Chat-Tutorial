@@ -186,8 +186,7 @@ const ChatRoom = (props) => {
                     messages={state.messages}
                     handleDeleteMessage={handleDeleteMessage}
                     updateMessage={updateMessage}
-                    userId={state.userIdInputValue}
-                />
+                    userId={state.userIdInputValue} />
                 <MessageInput
                     value={state.messageInputValue}
                     onChange={onMessageInputChange}
